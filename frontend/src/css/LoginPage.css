@@ -1,0 +1,91 @@
+/* LoginPage.css */
+
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1e3e62, #162c4c);
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .auth-form {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  
+  .auth-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #ff6500;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    padding-right: 400rem;
+    border: none;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.08);
+    color: #ffffff;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    outline: none;
+  }
+  
+  .input-field::placeholder {
+    color: #d1d1d1;
+  }
+  
+  .input-field:focus {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 0 2px #ff6500;
+  }
+  
+  .auth-button {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    background-color: #ff6500;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .auth-button:hover {
+    background-color: #e65a00;
+    transform: scale(1.03);
+  }
+  
+  .link-text {
+    margin-top: 1.2rem;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #ccc;
+  }
+  
+  .link {
+    color: #ff6500;
+    text-decoration: none;
+    margin-left: 0.4rem;
+    font-weight: 500;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }

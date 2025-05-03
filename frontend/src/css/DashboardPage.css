@@ -1,0 +1,40 @@
+/* DashboardPage.css */
+
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1e3e62, #162c4c);
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .auth-form {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    text-align: center;
+  }
+  
+  .auth-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #ff6500;
+  }
+  
+  .dashboard-info {
+    font-size: 1rem;
+    color: #dddddd;
+    margin: 10px 0;
+    line-height: 1.6;
+  }
